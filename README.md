@@ -1,9 +1,13 @@
 # fund-research
+
 Software tools:
+
     1. Java 8
     2. JUnit 4.0
 
+
 Packages:
+
     1. enums - Enumerated indexes used to extract values from each row
     2. models - Data model beans used to store data
     3. util - Utility classes used to perform common operations
@@ -15,4 +19,9 @@ This application has built on Java 8 APIs such as, lambda expressions, streams, 
 Please execute on Java 8 Runtime Environment.
 
 Steps to execute:
+
     1. Download/clone project
+    2. Build with mvn clean install
+    3. Run FunAnalyserTest.java
+    4. User need to create an object of FundAnalyser by passing 4 files path to constructor.
+    5. Then invoke generateMonthlyOutPerformance.
